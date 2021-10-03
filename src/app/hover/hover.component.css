@@ -1,0 +1,33 @@
+
+
+.card {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-price {
+    font-size: 50px;
+}
+
+.period {
+    font-size: small;
+}
+
+.fas {
+    letter-spacing: 10px;
+}
+
+.btn {
+    opacity: 0.7;
+}
+
+.card:hover .btn {
+    opacity: 1;
+
+}
+
+.card:hover {
+    margin-top: -1vh;
+    margin-bottom: 1vh;
+}
